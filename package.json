@@ -4,8 +4,8 @@
   "description": "Prueba de Harold Soto para ingresar a Logical Data.",
   "main": "index.js",
   "scripts": {
-    "babel-watch": "babel --watch src --out-file bostontools.js --source-maps",
-    "babel-build": "babel src --out-file bostontools.js && minify bostontools.js --out-file bostontools.js --mangle.keepClassName"
+    "babel-watch": "babel --watch src --out-file foodexpress.js --source-maps",
+    "babel-build": "babel src --out-file foodexpress.js && minify foodexpress.js --out-file foodexpress.js --mangle.keepClassName"
   },
   "repository": {
     "type": "git",
