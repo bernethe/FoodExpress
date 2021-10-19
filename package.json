@@ -1,0 +1,29 @@
+{
+  "name": "foodexpress",
+  "version": "1.0.0",
+  "description": "Prueba de Harold Soto para ingresar a Logical Data.",
+  "main": "index.js",
+  "scripts": {
+    "babel-watch": "babel --watch src --out-file bostontools.js --source-maps",
+    "babel-build": "babel src --out-file bostontools.js && minify bostontools.js --out-file bostontools.js --mangle.keepClassName"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernethe/FoodExpress.git"
+  },
+  "author": "Harold Soto <bernethe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernethe/FoodExpress/issues"
+  },
+  "homepage": "https://github.com/bernethe/FoodExpress#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-minify": "^0.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
