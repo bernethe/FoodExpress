@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FoodExpress</title>
+<title>FoodExpress | Entrega de comida a domicilio</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -13,5 +15,190 @@
 </head>
 
 <body>
+	<div class="container">
+		<header class="main-head py-5">
+			<div class="row">
+				<div class="col">
+					<div class="main-head-bar">
+						<div><img src="img/fe-logo.svg" alt="FoodExpress"></div>
+						<input type="text" name="q" id="q" placeholder="Search" autocomplete="off">
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main-banner mb-5">
+			<div class="row">
+				<div class="col">
+					<a href="#">
+						<img src="img/banner.png" alt="" class="img-fluid d-none d-sm-inline-block">
+						<img src="img/banner-m.png" alt="" class="img-fluid d-inline-block d-sm-none">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row home-info">
+			<div class="col-6 home-info-head"><h2>Restaurants</h2></div>
+			<div class="col-6 home-info-widget">
+				<div class="widget-delivery-time">
+					<svg><use href="img/icos.svg#clock"></use></svg>
+					<!-- <img src="img/clock-a.svg" alt=""> -->
+					<span>Delivery: Now</span>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<form action="#" method="POST" class="cat-sel">
+					<ul>
+						<li>
+							<input type="radio" name="cat" id="cat_0" value="0" checked>
+							<label for="cat_0">
+								<figure><svg><use href="img/icos.svg#dish"></use></svg></figure>
+								<span>All</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_1" value="1">
+							<label for="cat_1">
+								<figure><svg><use href="img/icos.svg#pizza"></use></svg></figure>
+								<span>Pizza</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_2" value="2">
+							<label for="cat_2">
+								<figure><svg><use href="img/icos.svg#asian"></use></svg></figure>
+								<span>Asian</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_3" value="3">
+							<label for="cat_3">
+								<figure><svg><use href="img/icos.svg#burguer"></use></svg></figure>
+								<span>Burguers</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_4" value="4">
+							<label for="cat_4">
+								<figure><svg><use href="img/icos.svg#bbq"></use></svg></figure>
+								<span>BBQ</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_5" value="5">
+							<label for="cat_5">
+								<figure><svg><use href="img/icos.svg#dessert"></use></svg></figure>
+								<span>Desserts</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_6" value="6">
+							<label for="cat_6">
+								<figure><svg><use href="img/icos.svg#sandwich"></use></svg></figure>
+								<span>Sandwich</span>
+							</label>
+						</li>
+						<li>
+							<input type="radio" name="cat" id="cat_7" value="7">
+							<label for="cat_7">
+								<figure><svg><use href="img/icos.svg#sushi"></use></svg></figure>
+								<span>Sushi</span>
+							</label>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div id="rest_items">
+					<a class="rest-item" href="#">
+						<figure><img src="img/r-1.jpg" alt="Pizza"></figure>
+						<h3>Pizza</h3>
+						<div class="row">
+							<div class="col-6">
+								<svg><use href="img/icos.svg#star"></use></svg>
+								<span class="rest-item-score">4.7</span>
+								<span class="rest-item-cat">Pizza</span>
+							</div>
+							<div class="col-6 rest-item-cost">$10.20</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				Sitio desarrollado por <a href="https://twitter.com/bernethe" target="_blank">@bernethe</a> para la prueba de ingreso a <a href="https://www.ld.co.cr/" target="_blank">Logical Data</a>. <br> Diseño de <a href="https://dribbble.com/shots/6592690-Food-Delivery-Dashboard" target="_blank">Cuberto</a> - Íconos por <a href="https://www.flaticon.com/" target="_blank">Flaticon</a> - Imágenes de <a href="https://www.freepik.com/" target="_blank">Freepik</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<button id="togglerSidebar">
+	<figure>
+		<svg><use href="img/icos.svg#shop"></use></svg>
+		<svg><use href="img/icos.svg#close"></use></svg>
+	</figure>
+	<div class="toggler-sidebar-badget">3</div>
+</button>
+<div class="sidebar" id="sidebar">
+	<div class="sidebar-content">
+		<div class="sidebar-head py-5">
+			<svg><use href="img/icos.svg#user"></use></svg>
+			<span class="sidebar-head-badget">3</span>
+		</div>
+		<h2>My Order</h2>
+		<div class="sidebar-head-dt">
+			<div class="row mb-3">
+				<div class="col-6">65 St Marks Ave</div>
+				<div class="col-6 sidebar-head-dt-a"><a href="#">Edit</a></div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<figure><svg><use href="img/icos.svg#clock"></use></svg></figure>
+					35 min
+				</div>
+				<div class="col-6 sidebar-head-dt-a"><a href="#">Choose Time</a></div>
+			</div>
+		</div>
+		<div class="sidebar-head-items my-5 container">
+			<div class="row">
+				<div class="col-4"><img src="img/p-1.jpg" alt=""></div>
+				<div class="col-5">Beach Burguer</div>
+				<div class="col-3 text-right">$14.99</div>
+			</div>
+			<div class="row">
+				<div class="col-4"><img src="img/p-2.jpg" alt=""></div>
+				<div class="col-5">French Fries</div>
+				<div class="col-3 text-right">$9.99</div>
+			</div>
+			<div class="row">
+				<div class="col-4"><img src="img/p-3.jpg" alt=""></div>
+				<div class="col-5">Cheesecake</div>
+				<div class="col-3 text-right">$0.99</div>
+			</div>
+			<div class="row">
+				<div class="col-4"><figure><svg><use href="img/icos.svg#delivery"></use></svg></figure></div>
+				<div class="col-5">Delivery</div>
+				<div class="col-3 text-right">$0.00</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row mt-5 sidebar-head-total">
+				<div class="col-6">Total</div>
+				<div class="col-6 text-right">$25.97</div>
+			</div>
+		</div>
+		<hr>
+		<a href="#" class="checkout-btn" role="button">
+			Checkout
+			<svg><use href="img/icos.svg#arrow"></use></svg>
+		</a>
+	</div>
+</div>
 </body>
 </html>
