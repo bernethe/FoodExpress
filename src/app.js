@@ -35,6 +35,55 @@ let _d = [
 		"c": 2,
 		"q": "4.7",
 		"p": "4.75"
+	},
+	{
+		"fid": 6,
+		"name": "Hamburgüeisa",
+		"c": 3,
+		"q": "3.2",
+		"p": "1.99"
+	},
+	{
+		"fid": 7,
+		"name": "Pizzafari",
+		"c": 1,
+		"q": "4.3",
+		"p": "9.75"
+	},
+	{
+		"fid": 8,
+		"name": "Il Mio Gelato",
+		"c": 5,
+		"q": "4.9",
+		"p": "3.85"
+	},
+	{
+		"fid": 9,
+		"name": "Crepes + Bake",
+		"c": 5,
+		"q": "5.0",
+		"p": "4.75"
+	},
+	{
+		"fid": 10,
+		"name": "Rim Rim Grill",
+		"c": 4,
+		"q": "4.9",
+		"p": "15.99"
+	},
+	{
+		"fid": 11,
+		"name": "Ribs & Shoulders",
+		"c": 4,
+		"q": "4.8",
+		"p": "12.99"
+	},
+	{
+		"fid": 12,
+		"name": "Ramen ½",
+		"c": 2,
+		"q": "4.5",
+		"p": "4.75"
 	}
 ];
 let _c = ["All","Pizza","Asian","Burguers","BBQ","Desserts","Sandwich","Sushi"];
